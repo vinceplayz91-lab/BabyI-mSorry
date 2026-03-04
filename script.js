@@ -50,11 +50,16 @@ function drawApologyMessage() {
   ctx.textAlign = 'center';
   const messageLines = [
     "My Elizabeth, I'm truly sorry for acting without you..",
-    "I never intend to let you down like that, and I'm sorry for all the past mistakes I did",
-    "I still need you, and I know you need me too. You must be busy and tired but it's okay, don't mind me baby",
-    "Your man won't go anywhere, I'll always be here for your peace and comfort,",
-    "and to support you in any way I can. So I hope you can still forgive me..",
-    "I love you, Mahal kita, Te amo, Je t’aime, Ich liebe dich, 愛してる, 사랑해, 我爱你, أحبك, Я тебя люблю, करती हूँ , Nakupenda, Seni seviyorum, Σ’ αγαπώ, Eu te amo, always🩵"
+    "I never intend to let you down like that,",
+    "and I'm sorry for all the past mistakes I did",
+    "I still need you, and I know you need me too."
+    "You must be busy and tired but it's okay, don't mind me baby",
+    "Your man won't go anywhere, I'll always be here for your",
+    "peace and comfort, and to support you in any",
+    "way I can. So I hope you can still forgive me..",
+    "I love you, Mahal kita, Te amo, Je t’aime, Ich liebe dich,", 
+    "愛してる, 사랑해, 我爱你, أحبك, Я тебя люблю, करती हूँ,",
+    "Nakupenda, Seni seviyorum, Σ’ αγαπώ, Eu te amo, always🩵"
   ];
   for(let i=0; i<messageLines.length; i++){
     ctx.fillText(messageLines[i], canvasWidth/2, 80 + i*30);
@@ -99,5 +104,6 @@ function gameLoop() {
 
   requestAnimationFrame(gameLoop);
 }
+
 
 gameLoop();
