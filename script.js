@@ -65,7 +65,7 @@ canvas.addEventListener('click', function(e){
     heartX = Math.random() * 360;
     heartY = Math.random() * 360;
 
-    if(score >= 100){
+    if(score >= 19){
       gameOver = true;
     }
   }
@@ -91,3 +91,4 @@ function gameLoop() {
 
 
 gameLoop();
+
