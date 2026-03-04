@@ -52,7 +52,7 @@ function drawApologyMessage() {
     "My Elizabeth, I'm truly sorry for acting without you..",
     "I never intend to let you down like that,",
     "and I'm sorry for all the past mistakes I did",
-    "I still need you, and I know you need me too."
+    "I still need you, and I know you need me too.",
     "You must be busy and tired but it's okay, don't mind me baby",
     "Your man won't go anywhere, I'll always be here for your",
     "peace and comfort, and to support you in any",
@@ -107,3 +107,4 @@ function gameLoop() {
 
 
 gameLoop();
+
