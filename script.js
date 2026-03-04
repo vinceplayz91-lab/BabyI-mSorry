@@ -45,8 +45,8 @@ function drawApologyMessage() {
   ctx.font = '20px Arial';
   ctx.textAlign = 'center';
   ctx.fillText("💖 My Dearest Love 💖", 200, 150);
-  ctx.fillText("I'm so sorry!", 200, 190);
-  ctx.fillText("I hope you can forgive me", 200, 220);
+  ctx.fillText("I'm so sorry for what I did..", 200, 190);
+  ctx.fillText("I understand that you feel discourage about me I hope you can forgive me", 200, 220);
   ctx.fillText("and feel how much I love you 💙", 200, 250);
   ctx.textAlign = 'start';
 }
@@ -91,4 +91,5 @@ function gameLoop() {
 
 
 gameLoop();
+
 
